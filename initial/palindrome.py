@@ -1,4 +1,5 @@
 def check_palindome(word):
+    word = word.lower()
     leng = len(word)
     notWord = leng <= 1
     sameInitial = word[0] == word[leng-1]
@@ -15,5 +16,5 @@ print(check_palindome('rotor'))
 print(check_palindome('civic'))
 print(check_palindome('kayak'))
 print(check_palindome('camilc'))
-print(check_palindome('sagas'))
+print(check_palindome('Hanah'))
 print(check_palindome('atrasa'))
